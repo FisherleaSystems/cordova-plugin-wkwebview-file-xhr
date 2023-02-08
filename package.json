@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-wkwebview-file-xhr",
+  "name": "@fisherleasystems/cordova-plugin-wkwebview-file-xhr",
   "version": "3.1.0",
   "description": "Cordova WKWebView File XHR Plugin",
   "cordova": {
@@ -10,21 +10,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oracle/cordova-plugin-wkwebview-file-xhr"
+    "url": "https://github.com/FisherleaSystems/cordova-plugin-wkwebview-file-xhr"
   },
+  "homepage": "https://github.com/FisherleaSystems/cordova-plugin-wkwebview-file-xhr#readme",
   "keywords": [
     "cordova",
     "wkwebview",
     "ecosystem:cordova",
     "cordova-ios"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/FisherleaSystems"
+  },
   "scripts": {
-    "test": "npm run jshint",
-    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+    "test": "echo \"No tests to run.\""
   },
   "author": "oraclejet",
   "license": "UPL-1.0",
-  "devDependencies": {
-    "jshint": "^2.6.0"
-  }
+  "maintainers": [
+    {
+      "name": "Wayne Fisher",
+      "email": "wayne@fisherlea.com"
+    }
+  ]
 }
